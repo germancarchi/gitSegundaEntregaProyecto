@@ -1,0 +1,53 @@
+/*   Main   */
+.titleMovement {
+    animation-name: title;
+    animation-iteration-count: 1;
+    animation-duration: 4s;
+}
+@keyframes title {
+    from {
+        transform: translate(-1000px);
+    }
+    to {
+        transform: translate(0.5fr);
+    }
+}
+.imgHover {
+}
+
+.imgHover:hover {
+    opacity: 0.5;
+    transform: scale(1.2);
+}
+
+.title1Movement {
+    animation-name: title1;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+}
+@keyframes title1 {
+    from {
+        transform: translate(1000px);
+    }
+    to {
+        transform: translate(0.1fr);
+    }
+}  
+
+.title2Movement {
+    animation-name: title2;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+}
+@keyframes title2 {
+    from {
+        transform: translate(-700px);
+    }
+    to {
+        transform: translate(1fr);
+    }
+} 
+
+.centerBlog {
+    align-items:flex-end;
+}
